@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+
+
+<body>
+
+
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="./images/icons/CORVUS.png" class="crowlogo" alt="website-logo">
+        </a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+
+
+        <!-- class=" js-scroll-trigger" -->
+        <nav class="navbar navmobile ">
+            <a href="index.html" style="--i:0;" id="navbar-btn" class="active">Home</a>
+            <a href="#myprojects" style="--i:1;" id="navbar-btn" >Projects</a>
+            <a href="#aboutme" style="--i:2;" id="navbar-btn" >About me</a>
+            <a href="#contactme" style="--i:3;" id="navbar-btn" >Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="home section" id="homepage">
+
+        <div class="home-content">
+            <img src="./images/undraw_programming_re_kg9v.svg" class="home-image" alt="programmer at work">
+
+            <h1>Adam Wrona</h1>
+            <span>WebDeveloper</span>
+            <div class="home-icons">
+                <a href="https://www.linkedin.com/in/adam-wrona-111ba728b/"><img src="./images/icons/linkedin.svg"
+                        alt="linkedin-icon" /></a>
+                <a href="https://github.com/wronowy"><img src="./images/icons/GithubIcon.svg" alt="github-icon"></a>
+            </div>
+        </div>
+
+    </section>
+    <section class="myprojects-section" id="myprojects">
+        <main class="projects">
+            <div class="section-title">
+                <p class="section-title-main">My Pro</p>
+                <span class="section-title-sub">jects</span>
+            </div>
+            <div class="project-box">
+                <div class="project-box-card">
+                    <img src="./images/sicarios.jpg" alt="barbershop-website" />
+                    <div class="project-info">
+                        <p class="project-name">Sicarios Barbershop</p>
+                        <a href="/" class="project-link">
+                            <img src="./images/icons/code.svg" alt="code-icon">
+                        </a>
+                    </div>
+                    <p class="project-description">My first website of the imaginary barbershop Sicarios, fully
+                        responsive with brief information about the owners, google map and php contact form. Possibility
+                        to add other features. </p>
+                    <div class="project-technology">
+                        <p class="technology-title">Used:</p>
+                        <div class="technology-icon">
+                            <img src="./images/icons/html5.svg" alt="html-icon">
+                            <img src="./images/icons/sass.svg" alt="sass-icon">
+                            <img src="./images/icons/gulp-logo-svgrepo-com.svg" alt="javascript-icon">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box-card">
+                    <img src="./images/undraw_static_website_re_x70h.svg" alt="website-builder" />
+                    <div class="project-info">
+                        <p class="project-name">Second project</p>
+                        <a href="/" class="project-link">
+                            <img src="./images/icons/code.svg" alt="code-icon">
+                        </a>
+                    </div>
+                    <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+                        pariatur provident ab corporis perspiciatis animi quibusdam unde voluptatem amet atque?</p>
+                    <div class="project-technology">
+                        <p class="technology-title">Used:</p>
+                        <div class="technology-icon">
+                            <img src="./images/icons/html5.svg" alt="html-icon">
+                            <img src="./images/icons/sass.svg" alt="sass-icon">
+                            <img src="./images/icons/javascript-svgrepo-com.svg" alt="javascript-icon">
+                            <img src="./images/icons/gulp-logo-svgrepo-com.svg" alt="javascript-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box-card">
+                    <img src="./images/undraw_static_website_re_x70h.svg" alt="website-builder" />
+                    <div class="project-info">
+                        <p class="project-name">Third project</p>
+                        <a href="/" class="project-link">
+                            <img src="./images/icons/code.svg" alt="code-icon">
+                        </a>
+                    </div>
+                    <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+                        pariatur provident ab corporis perspiciatis animi quibusdam unde voluptatem amet atque?</p>
+                    <div class="project-technology">
+                        <p class="technology-title">Used:</p>
+                        <div class="technology-icon">
+                            <img src="./images/icons/html5.svg" alt="html-icon">
+                            <img src="./images/icons/sass.svg" alt="sass-icon">
+                            <img src="./images/icons/javascript-svgrepo-com.svg" alt="javascript-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- about me -->
+    <section class="about-me section" id="aboutme">
+        <article class="about">
+            <div class="section-title">
+                <p class="section-title-main">Who</p>
+                <span class="section-title-sub">Am I?</span>
+            </div>
+            <div class="about-content">
+
+
+                <p class="about-description">
+
+                    Dedicated frontend web developer and freelancer with a passion for crafting seamless digital
+                    experiences. Proficient in HTML, CSS, and JavaScript, I bring creativity and precision to every
+                    project. Committed to delivering user-friendly designs that elevate brands. Let's collaborate to
+                    transform ideas into visually stunning and functional websites.
+                    <!-- <span class="about-quote">moze jakis fajny cyctat</span> -->
+                </p>
+                <img src="./images/hero-bg.svg" alt="man coding">
+            </div>
+
+
+        </article>
+    </section>
+    <section class="technologies section">
+        <div class="section-title">
+            <p class="section-title-main">Tech</p>
+            <span class="section-title-sub">nologies</span>
+        </div>
+        <section class="technologies-content">
+            <div class="technologies-item">
+                <img src="./images/icons/html5.svg" alt="html-icon">
+                <p class="technologies-item-title">Html</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/sass.svg" alt="sass-icon">
+                <p class="technologies-item-title"> Sass</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/javascript-svgrepo-com.svg" alt="javascript-icon">
+                <p class="technologies-item-title"> javascript</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/gulp-logo-svgrepo-com.svg" alt="gulp-icon">
+                <p class="technologies-item-title">Gulp</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/git-icon.svg" alt="git-icon">
+                <p class="technologies-item-title"> Git</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/tailwind-svgrepo-com.svg" alt="tailwind-icon">
+                <p class="technologies-item-title">Tailwind...</p>
+            </div>
+            <div class="technologies-item">
+                <img src="./images/icons/react.svg" alt="react-icon">
+                <p class="technologies-item-title">React...</p>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- contact -->
+
+    <div class="section-title">
+        <p class="section-title-main">Contact</p>
+        <span class="section-title-sub">Me</span>
+
+    </div>
+    <section class="contact section" id="contactme">
+
+
+        <div class="contact-form-box">
+            <form action="mail.php" method="post" class="contact-form">
+                <div class="contact-box">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="contact-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="contact-box">
+                    <label for="name">Message:</label>
+                    <textarea name="msg" id="msg" required></textarea>
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+        <p class="msg-status"></p>
+        <img src="./images/email-message-svgrepo-com.svg" alt="">
+        <p class="email-address">wronowyadam@gmail.com</p>
+    </section>
+
+    <footer>Copyright &copy; 2023 Corvus Design</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
