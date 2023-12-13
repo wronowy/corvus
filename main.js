@@ -17,6 +17,7 @@ const hideNav = () => {
 	closeNav.style.display = 'none'
 }
 hideNav()
+
 const mobileNav = () => {
 	menu.classList.remove('.active')
 }
