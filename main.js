@@ -4,8 +4,6 @@ const menu = document.querySelector('.nav')
 const burgerBtn = document.querySelector('.burger')
 const closeNav = document.querySelector('.navmobile')
 
-// display-none
-
 const stickHeader = () => {
 	const scroll = window.scrollY
 	if (scroll > 0) {

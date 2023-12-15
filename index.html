@@ -34,7 +34,7 @@
 
         <!-- class=" js-scroll-trigger" -->
         <nav class="navbar navmobile ">
-            <a href="index.html" style="--i:0;" id="navbar-btn" class="active">Home</a>
+            <a href="#homepage" style="--i:0;" id="navbar-btn" class="active">Home</a>
             <a href="#myprojects" style="--i:1;" id="navbar-btn">Projects</a>
             <a href="#aboutme" style="--i:2;" id="navbar-btn">About me</a>
             <a href="#contactme" style="--i:3;" id="navbar-btn">Contact</a>
@@ -42,10 +42,10 @@
 
     </header>
 
-    <section class="home section" id="homepage">
+    <section class="home" id="homepage">
 
         <div class="home-content">
-            <img src="./images/undraw_programming_re_kg9v.svg" class="home-image" alt="programmer at work">
+            <img src="./images/web_developer.jpg" class="home-image" alt="programmer at work">
 
             <h1>Adam Wrona</h1>
             <span>WebDeveloper</span>
@@ -65,12 +65,12 @@
             </div>
             <div class="project-box">
                 <div class="project-box-card">
-                    <a href="https://wronowy.github.io/barbershop/" class="project-link"> <img
-                            src="./images/sicarios.jpg" alt="barbershop-website" /></a>
                     <div class="project-info">
                         <p class="project-name">Sicarios Barbershop</p>
 
-                        <img src="./images/icons/code.svg" alt="code-icon">
+
+                        <a href="https://wronowy.github.io/barbershop/" class="project-link">
+                            <img src="./images/sicarios.jpg" alt="barbershop-website" class="project-img" /></a>
 
                     </div>
                     <p class="project-description">My first website of the imaginary barbershop Sicarios, fully
@@ -87,11 +87,11 @@
                     </div>
                 </div>
                 <div class="project-box-card">
-                    <a href="https://wronowy.github.io/offroad/" class="project-link"> <img src="./images/offroad.jpg"
-                            alt="website-builder" /></a>
                     <div class="project-info">
                         <p class="project-name">Offroad Adventure</p>
-                        <img src="./images/icons/code.svg" alt="code-icon">
+                    
+                        <a href="https://wronowy.github.io/offroad/" class="project-link"> <img
+                                src="./images/offroad.jpg" alt="website-builder" class="project-img" /></a>
                     </div>
                     <p class="project-description">My second website of the Offroad Adventure. A company that organizes
                         tours. The site contains 5 subpages, animations, swiper, a selection of tour options, contact
@@ -106,12 +106,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="project-box-card">
+                <!-- <div class="project-box-card">
                     <img src="./images/undraw_static_website_re_x70h.svg" alt="website-builder" />
                     <div class="project-info">
                         <p class="project-name">Third project</p>
                         <a href="/" class="project-link">
-                            <img src="./images/icons/code.svg" alt="code-icon">
+                            <img src="./images/icons/code.svg" class="code-icon" alt="code-icon">
                         </a>
                     </div>
                     <p class="project-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
@@ -124,13 +124,13 @@
                             <img src="./images/icons/javascript-svgrepo-com.svg" alt="javascript-icon">
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </main>
     </section>
     <!-- about me -->
-    <section class="about-me section" id="aboutme">
-        <article class="about">
+    <section class="about-me" id="aboutme">
+        <div class="about">
             <div class="section-title">
                 <p class="section-title-main">Who</p>
                 <span class="section-title-sub">Am I?</span>
@@ -144,13 +144,16 @@
                     experiences. Proficient in HTML, CSS, and JavaScript, I bring creativity and precision to every
                     project. Committed to delivering user-friendly designs that elevate brands. Let's collaborate to
                     transform ideas into visually stunning and functional websites.
-                    <!-- <span class="about-quote">moze jakis fajny cyctat</span> -->
+
                 </p>
-                <img src="./images/hero-bg.svg" alt="man coding">
+                <div class="about-me-img">
+
+                    <img src="./images/webdeveloper2.jpg" class="me-image" alt="man coding">
+                </div>
             </div>
 
 
-        </article>
+        </div>
     </section>
     <section class="technologies section">
         <div class="section-title">
