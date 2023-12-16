@@ -142,10 +142,13 @@ html {
 	text-decoration: none;
 	text-shadow: #0d0b1c;
 }
-.crowlogo {
+.crowlogo  {
 	width: 6rem;
-	height: 6rem;
+	height: 6rem;border-radius: 50%;
+	background-color: #b89ba6;
+	box-shadow: 5px 5px 10px 1px #000000;
 }
+
 .navbar a {
 	font-size: 1.4rem;
 	color: rgb(60, 60, 105);
@@ -288,8 +291,6 @@ h1 {
 	margin: 0.8rem;
 }
 
-
-
 .description {
 	font-size: 1.4rem;
 	text-align: justify;
@@ -311,6 +312,9 @@ h1 {
 	flex-wrap: wrap;
 	margin: 1rem 2rem;
 	text-align: center;
+}
+p.about-description {
+	margin-top: 3rem;
 }
 img.me-image {
 	min-width: 50%;
@@ -525,7 +529,8 @@ footer {
 		transition: 0.3s ease;
 	}
 	.description {
-		font-size: 0.7rem;	text-align: justify;
+		font-size: 0.7rem;
+		text-align: justify;
 	}
 	img.me-image {
 		max-width: 10rem;
