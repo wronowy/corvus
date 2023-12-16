@@ -142,9 +142,10 @@ html {
 	text-decoration: none;
 	text-shadow: #0d0b1c;
 }
-.crowlogo  {
+.crowlogo {
 	width: 6rem;
-	height: 6rem;border-radius: 50%;
+	height: 6rem;
+	border-radius: 50%;
 	background-color: #b89ba6;
 	box-shadow: 5px 5px 10px 1px #000000;
 }
@@ -510,7 +511,8 @@ footer {
 		width: 100%;
 		height: 0;
 		background: rgba(0, 0, 0, 0.1);
-		backdrop-filter: blur(50px);
+		backdrop-filter: blur(20px);
+		-webkit-backdrop-filter: blur(20px);
 		box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 		overflow: hidden;
 		transition: 0.3s ease;
